@@ -1,0 +1,34 @@
+.game__list {
+  padding: 0rem 5rem;
+}
+
+.game__list__title {
+  padding: 5rem 0rem;
+}
+
+
+.games {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
+}
+
+.game__item {
+  text-align: center;
+  min-height: 40vh;
+  transition: all ease 0.4s;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: #fafafa;
+  img {
+    width: 92%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  &:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+}
